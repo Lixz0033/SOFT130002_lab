@@ -1,0 +1,98 @@
+body {
+    background-image: -webkit-linear-gradient(rgba(10, 10, 10, 0.3) 14%, rgba(10, 10, 10, 0.6) 70%);
+    padding: 2px;
+}
+
+
+header {
+    margin: 0 auto;
+    width: 80%;
+    font-size: 20px;
+    font-family: "微软雅黑", "宋体", serif;
+    text-align: left;
+    line-height: 40px;
+    border-radius: 10px;
+    height: 40px;
+    background-image: -webkit-linear-gradient(rgba(10, 10, 10, 0.3) 4%, rgba(10, 10, 10, 0.90) 70%);
+}
+
+nav {
+    margin-right: 5%;
+}
+
+nav a {
+    text-decoration: none;
+    float: right;
+    color: white;
+}
+
+a:hover {
+    color: #87bff2;
+}
+
+h1 {
+    color: white;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    margin-left: 4%;
+    width: 90%;
+    text-align: center;
+}
+p{
+    color: rgba(255,255,255,0.8);
+}
+form {
+    border-radius: 10px;
+    background-image: -webkit-linear-gradient(rgba(10, 10, 10, 0.2) 4%, rgba(10, 10, 10, 0.4) 70%);
+    width: 36%;
+    margin-left: 32%;
+    margin-bottom: 5em;
+    overflow: visible;
+    padding: 5px;
+}
+
+form p {
+    margin-left: 20%;
+    margin-bottom: 0.1em;
+    word-break: normal;
+}
+
+input[type=text], input[type=password] {
+    border-width: 1px;
+    border-radius: 5px;
+    margin-top: 0.2em;
+    margin-bottom: 0.3em;
+    width: 70%;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    border: 1px solid tomato;
+}
+
+textarea {
+    height: 12em;
+    resize: none;
+    overflow: visible;
+    width: 70%;
+    color: rgba(255,255,255,0.8);
+    background-image: -webkit-linear-gradient(rgba(10, 10, 10, 0.7) 4%, rgba(10, 10, 10, 0.8) 70%);
+}
+
+input[type=submit], input[type=button] {
+    text-align: center;
+    background-image: -webkit-linear-gradient(rgba(10, 240, 10, 0.3) 4%, rgba(10, 180, 10, 0.90) 70%);
+    color: white;
+    height: 2em;
+    border-width: 0;
+    border-radius: 8px;
+    width: 10%;
+}
+
+input[type=button], input[type=submit], input[type=checkbox], input[type=radio], select:hover {
+    cursor: pointer;
+}
+
+input[type=text], input[type=password], input[type=submit], input[type=button], input[type=button],
+input[type=submit], input[type=checkbox], input[type=radio], select {
+    margin-bottom: 0.8em;
+}
