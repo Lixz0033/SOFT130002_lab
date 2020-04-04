@@ -1,0 +1,95 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/*nav*/
+.navbar {
+    width: 90%;
+    margin-left: 5%;
+    min-width: 400px;
+    border-radius: 10px;
+    z-index: 100; /*确保导航栏不会被遮挡*/
+}
+
+#user_default_image {
+    height: 3.6em;
+}
+
+/*content*/
+.content_display_part {
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+.content_show {
+    margin-top: 0.5em;
+    margin-left: 9%;
+    width: 20%;
+    border-radius: 10px;
+    background-color: rgba(180, 180, 180, 0.7);
+}
+
+.content_show > a > img {
+    margin-top: 0.5em;
+    margin-left: 4%;
+    width: 90%;
+    height: 14em;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.content_show h4 {
+    text-align: center;
+}
+
+.content_show p {
+    margin: 8px;
+    word-break: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.item img {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.carousel-inner {
+    margin: 0 auto;
+    height: 30em;
+    width: 60%;
+}
+
+/*aside*/
+aside {
+    float: right;
+    position: fixed;
+    right: 0;
+    bottom: 100px;
+}
+
+aside img {
+    background-color: rgba(180, 180, 180, 0.3);
+}
+
+/*footer*/
+footer {
+    background-color: #333333;
+    clear: both;
+}
+
+footer .container > .row {
+    margin-top: 2em;
+    margin-left: 5%;
+}
+
+footer a {
+    color: white;
+}
+
+.copyright {
+    color: white;
+    text-align: center;
+}
