@@ -5,9 +5,7 @@ LAB 4 设计文档
 
 如下：
 
-![主页截图](https://github.com/Lixz0033/SOFT130002_lab/tree/master/lab4/images/indexPrintScreen.png)
-
-![截图备份](D:\lab\SOFT130002_lab\lab4\images\indexPrintScreen.png)
+![主页截图](https://i.loli.net/2020/04/05/ehtE7JGarA2314K.png)
 
 (lab4的images文件夹里也有截图；为了把导航栏和页尾全部显示出来，截图时有一定比例放缩，结果截图里头图只显示了上面一部分)
 
