@@ -13,3 +13,4 @@
 ### 截图
 ![png1.png](https://i.loli.net/2020/04/24/Eb7ZISAjTC3QKLH.png)
 
+![png2.png](https://i.loli.net/2020/04/24/TKH69quY1mnjPDt.png)
