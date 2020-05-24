@@ -9,6 +9,7 @@ let nextArrow = document.querySelector(".arrow_right");
 let wrap = document.querySelector(".wrap");
 let buttons = document.getElementsByTagName("span");
 let onButton;
+let tds = document.getElementsByTagName("td");
 /*********************************************end*************************************/
 
 
@@ -36,7 +37,7 @@ function setClassOn() { /*设置当前图片对应按钮的显示*/
 }
 
 function nextPhoto() {
-    index = (index % 5 + 1) % 5;
+    index = (index + 1) % 5;
     wrap.style.left = index * -600 + "px";
     setClassOn();
 }
@@ -48,7 +49,7 @@ nextArrow.onclick = function () {
 };
 previewArrow.onclick = function () {
     clearInterval(autoTimer);
-    index = ((index + 4) % 5 + 5) % 5;
+    index = (index + 4) % 5;
     wrap.style.left = index * -600 + "px";
     setClassOn();
     autoPlay();
@@ -116,16 +117,18 @@ for (let j = 0; j < buttons.length; j++) {
 /********************************************begin************************************/
 
 /*Code Here*/
-$(function(){
-    $('table td').click(function(){
-        if(!$(this).is('.input')){
-            $(this).addClass('input').html('<input type="text" value="'+ $(this).text() +'" />').find('input').focus().blur(function(){
-                $(this).parent().removeClass('input').html($(this).val() || 0);
-            });
+$(function () {
+    $('table td').click(function () {
+        if (!$(this).is('.inputText')) {
+            $(this).addClass('inputText');
         }
-    }).hover(function(){
+        $(this).html('<input type="text" value="' + $(this).text() + '" />').find('input').focus().blur(
+            function () {
+                $(this).parent().removeClass('input').html($(this).val() || " ");
+            });
+    }).hover(function () {
         $(this).addClass('hover');
-    },function(){
+    }, function () {
         $(this).removeClass('hover');
     });
 });
